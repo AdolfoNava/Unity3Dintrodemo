@@ -467,14 +467,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101243246}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.8, y: 0, z: -11.2}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -9.8, y: 5.656854, z: -8.856854}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1223773488}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1 &341595300 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6181331701807279812, guid: 90a0facefd4dc7d48a94c233089aef2b,
@@ -1064,6 +1064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 81197406387235152, guid: 90a0facefd4dc7d48a94c233089aef2b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6181331701807117028, guid: 90a0facefd4dc7d48a94c233089aef2b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1225,8 +1230,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.8, y: 0, z: -11.2}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -9.8, y: 5.656854, z: -8.856854}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1768,17 +1773,17 @@ MonoBehaviour:
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
   m_LookaheadIgnoreY: 0
-  m_XDamping: 1
-  m_YDamping: 1
+  m_XDamping: 0.5
+  m_YDamping: 0.5
   m_ZDamping: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 8
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
+  m_DeadZoneWidth: 0.1
+  m_DeadZoneHeight: 0.1
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
+  m_SoftZoneWidth: 1
   m_SoftZoneHeight: 0.8
   m_BiasX: 0
   m_BiasY: 0
@@ -5601,6 +5606,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 656026864}
     m_Modifications:
+    - target: {fileID: 254221763950517638, guid: 3dad5997a23f5f84687ec23e4264c1e3,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1349782758}
     - target: {fileID: 6756388399420045387, guid: 3dad5997a23f5f84687ec23e4264c1e3,
         type: 3}
       propertyPath: waypoints.Array.size
@@ -5691,6 +5701,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 656026864}
     m_Modifications:
+    - target: {fileID: 3681648703225360739, guid: bf080b3a6db4b584abda00d474cacb99,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6019285533485736068, guid: bf080b3a6db4b584abda00d474cacb99,
         type: 3}
       propertyPath: m_RootOrder
